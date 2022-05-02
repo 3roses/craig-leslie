@@ -1,0 +1,9 @@
+
+body {
+    background-image: url(./meandheights.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    height: 100vh;
+    background-color: #001219;
+}

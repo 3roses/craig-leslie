@@ -1,0 +1,8 @@
+.navStyle{
+    background-color: red;
+    color: red;
+}
+
+.right{
+    justify-content: end;
+}
