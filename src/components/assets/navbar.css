@@ -1,8 +1,8 @@
 .navStyle{
-    background-color: red;
-    color: red;
+    background-color: #001219;
+    color: white;
 }
 
-.right{
-    justify-content: end;
+.color-me{
+    color: white;
 }
