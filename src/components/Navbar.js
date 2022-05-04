@@ -1,12 +1,13 @@
 import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
 import Projects from './Projects';
 import {Link} from 'react-router-dom';
+import { BsGithub } from "react-icons/bs";
 import "./assets/navbar.css";
 
 const NavbarContent = () => {
   return (
 <section>
-    <Navbar className="navStyle" expand="lg">
+    <Navbar variant="dark" className="navStyle" expand="lg">
     <Container>
         <Navbar.Brand className="color-me" as={Link} to="/">Craig Leslie</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

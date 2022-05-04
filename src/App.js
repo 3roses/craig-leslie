@@ -17,14 +17,14 @@ function App() {
     
     <div className="App">
       <Router>
-          <Navbar />
+          {/* <Navbar /> */}
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/projects" exact element={<Projects/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
-         <Footer />       
+         {/* <Footer />        */}
       </Router>
     </div>
     

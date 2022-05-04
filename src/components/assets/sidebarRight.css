@@ -1,0 +1,62 @@
+.sidenav-rt {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 13%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    /* float: right; */
+    top: 0; /*Stay at the top*/
+    right: 0;
+    background-color: #001219; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon-rt {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    position: relative;
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    top: 60%;
+    transform: translateY(-160%);
+}
+
+.sidenav-rt a{
+  font-size: 35px;
+}
+
+
+@media only screen and (max-width: 1125px) {
+  .sidenav-rt{
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sidenav-rt a{
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .sidenav-rt{
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sidenav-rt a{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sidenav-rt a{
+    font-size: 18px;
+  }
+}

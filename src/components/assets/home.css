@@ -1,9 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Della+Respira&family=Moul&family=Revalia&family=Rye&family=UnifrakturMaguntia&display=swap');
 
-body {
+.homepage {
     background-image: url(./meandheights.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 30%;
+    background-position: 60% 30%;
     height: 100vh;
     background-color: #001219;
 }
+
+button{
+    background-color: transparent;
+    border: none;
+    size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    background: rgba(0, 8, 15, 0.7);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Moul;
+    position: relative;
+}
+
+.name h1{
+    color: #CA6702
+}
+
+.name h3{
+    color: #E9D8A6
+}
+
+.spaceName{
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 465px) {
+    .name{
+      z-index: 1;
+      /* background: transparent; */
+    }
+  }

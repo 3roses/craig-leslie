@@ -1,0 +1,60 @@
+
+.sidenav {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 13%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #001219; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    }
+
+.icon {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    top: 60%;
+    transform: translateY(-160%);
+    size: 70;
+    }
+
+    
+  @media only screen and (max-width: 1125px) {
+    .sidenav{
+      width: 15%;
+    }
+  }
+
+@media only screen and (max-width: 420px) {
+  .shared-class {
+    size: 50;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .sidenav{
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sidenav{
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .icon{
+    padding-left: .1rem;
+    padding-right: .1rem;
+  }
+}
