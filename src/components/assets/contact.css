@@ -10,10 +10,14 @@
     display: block;
     margin-top: 5px;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 75%;
   }
 
   .submit-btn{
       display: block;
   }
 
+.error-text{
+  font-weight: 600;
+  color: red;
+}

@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Della+Respira&family=Moul&family=Revalia&family=Rye&family=UnifrakturMaguntia&display=swap');
 
-.header{
+/* .header{
+    background: #001219;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Moul;
+    position: relative;
+    color: #CA6702;
+} */
+
+.name{
+    background: rgba(0, 8, 15, 0.7);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Moul;
+    position: relative;
+}
+
+.Projects{
+    background: #001219;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Moul;
+    position: relative;
+    color: #CA6702;
+}
+
+.Bio{
     background: #001219;
     text-align: center;
     padding-top: 2rem;
@@ -13,3 +42,9 @@
 .spaceName{
     margin-right: 1rem;
 }
+
+.nameLink{
+    text-decoration: none;
+    color: #CA6702;
+}
+

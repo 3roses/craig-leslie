@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import './assets/contact.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 const Contact = () => {
+
+  function validateEmail(email) {
+  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}
 
 const [fullName, setFullName] = useState('');
 const [email, setEmail] = useState('');
@@ -27,10 +30,16 @@ const handleInputChange = (e) => {
 
 const handleFormSubmit = (e) => {
   e.preventDefault();
+  
+  if(!validateEmail(email) || !fullName || !subject || !message){
+    setErrorMessage('Please fill out the entire form!');
+    return
+  }
   setFullName('');
   setEmail('');
   setSubject('');
   setMessage('');
+  setErrorMessage('');
 }
 
   return (
@@ -41,7 +50,7 @@ const handleFormSubmit = (e) => {
       </div>
 
       <div className='container'>
-        <form className='form col'>
+        <form className='form col' onSubmit={handleFormSubmit}>
         <input
             value={fullName}
             name="fullName"
@@ -70,8 +79,13 @@ const handleFormSubmit = (e) => {
             type="text"
             placeholder=""
           />
-          <button type="button" className="btn submit-btn" onClick={handleFormSubmit}>Submit</button>
+          <button type="submit" className="btn btn-success">Submit</button>
         </form>
+        {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
       </div>
     </>
   )

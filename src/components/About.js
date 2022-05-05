@@ -2,19 +2,18 @@ import Header from './Header';
 import './assets/about.css';
 import { useEffect } from 'react';
 
-const headshot = require ('./assets/headshot.png')
+// const headshot = require ('./assets/headshot.png')
 
 const About = () => {
 
   useEffect(() => {
     document.body.style.backgroundColor = "#001219";
-})
-// #005F73
+});
 
   return (
     <>
-    <Header />
-    <div className='container'>
+    <Header title={'Bio'}/>
+    <div className='bio-container'>
       
       <div className='left headshot'>
       {/* <img className="resize" src={headshot} alt=""></img> */}
@@ -26,7 +25,7 @@ const About = () => {
       If you have any questions or want to collaborate on a project, please feel free to reach out via email!
       <br/>
       <br/>
-      <a href="mailto:cleslie25@gmail.com.com">cleslie25@gmail.com</a>
+      <a className='emailLink' href="mailto:cleslie25@gmail.com.com">cleslie25@gmail.com</a>
       </p>
 
       </div>

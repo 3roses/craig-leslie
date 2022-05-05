@@ -17,14 +17,14 @@ button{
     justify-content: center;
 }
 
-.name{
+/* .name{
     background: rgba(0, 8, 15, 0.7);
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-family: Moul;
     position: relative;
-}
+} */
 
 .name h1{
     color: #CA6702

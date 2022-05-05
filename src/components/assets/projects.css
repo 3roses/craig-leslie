@@ -17,3 +17,7 @@ body{
     height: 100%;
     /* background-color: black; */
 }
+
+.image{
+    max-height: 200px;
+}

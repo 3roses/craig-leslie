@@ -7,8 +7,8 @@ export const SidebarLeft = () => {
   return (
       <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
         <aside className='sidenav'>
-            <a className="icon" href='https://github.com/3roses' target='_blank'><BsGithub/></a>
-            <a className="icon" href='https://www.linkedin.com/in/craig-leslie/' target='_blank'><BsLinkedin/></a>
+            <a className="icon" href='https://github.com/3roses' target='_blank' rel="noreferrer"><BsGithub/></a>
+            <a className="icon" href='https://www.linkedin.com/in/craig-leslie/' target='_blank' rel="noreferrer"><BsLinkedin/></a>
             <a className="icon" as={Link} href='contact'><BsFillEnvelopeFill/></a>
         </aside>
      </IconContext.Provider>
