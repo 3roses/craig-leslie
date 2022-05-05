@@ -7,7 +7,7 @@ const Header = (props) => {
 
   return (
     <div className={title}>
-        <a as={Link} href='/' className='nameLink'><h1><span className='spaceName'>C r a i g</span> <span>L e s l i e</span></h1></a>
+        <Link to='/' className='nameLink'><h1><span className='spaceName'>C r a i g</span> <span>L e s l i e</span></h1></Link>
         <h3>{title === 'name' ? 'Software Engineer' : title}</h3>
     </div>
   )

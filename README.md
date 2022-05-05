@@ -9,13 +9,13 @@ Welcome to my portfolio built with React.js. Click the link below to view the de
 ## Current Features
 
 * Homepage with links to
-
     * GitHub
     * LinkedIn
     * My Resume
     * Recent Projects
     * My Bio
     * Contact page with an email form
+
 
 * Click on my name at the top and navigate back to the homepage
 

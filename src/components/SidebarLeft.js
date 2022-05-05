@@ -9,7 +9,7 @@ export const SidebarLeft = () => {
         <aside className='sidenav'>
             <a className="icon" href='https://github.com/3roses' target='_blank' rel="noreferrer"><BsGithub/></a>
             <a className="icon" href='https://www.linkedin.com/in/craig-leslie/' target='_blank' rel="noreferrer"><BsLinkedin/></a>
-            <a className="icon" as={Link} href='contact'><BsFillEnvelopeFill/></a>
+            <Link className="icon" to='/contact'><BsFillEnvelopeFill/></Link>
         </aside>
      </IconContext.Provider>
   )
