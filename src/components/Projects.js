@@ -8,9 +8,11 @@ const nmn = require('./assets/nmnscreenshot.png')
 
 
 const Projects = () => {
+
     useEffect(() => {
         document.body.style.backgroundColor = "black";
     })
+    
   return (
     <>
     <div className = "container-fluid row center">

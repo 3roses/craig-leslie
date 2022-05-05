@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Della+Respira&family=Moul&family=Revalia&family=Rye&family=UnifrakturMaguntia&display=swap');
+
+.header{
+    background: #001219;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Moul;
+    position: relative;
+    color: #CA6702;
+}
+
+.spaceName{
+    margin-right: 1rem;
+}
