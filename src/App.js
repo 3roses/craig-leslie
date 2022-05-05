@@ -5,7 +5,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact"
 import {
   BrowserRouter as Router,
-  HashRouter,
   Routes,
   Route,
   // Link
@@ -16,14 +15,14 @@ function App() {
   return (
     
     <div className="App">
-      <HashRouter>
+      <Router>
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/projects" exact element={<Projects/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
-      </HashRouter>
+      </Router>
     </div>
     
   );
