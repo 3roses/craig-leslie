@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import Header from './Header'
-import {Card, Button} from 'react-bootstrap'
+import { Card, Button } from 'react-bootstrap'
 import { BsGithub } from "react-icons/bs";
+import { Link } from 'react-router-dom'
 import './assets/projects.css'
 
 const nba = require('./assets/nba-proj-screenshot.png');
@@ -23,48 +24,44 @@ const Projects = () => {
             <Card className="col gap">
                 <Card.Img className='image' variant="top" src={nba} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>NBA Fandom</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    A one-stop-shop for NBA schedules and statistics.
                     </Card.Text>
-                    <Button variant="primary"><BsGithub /></Button>
+                    <a as={Link} href='https://github.com/eugene125/project-1'><Button variant="primary"><BsGithub /></Button></a>
                 </Card.Body>
             </Card>
 
             <Card className="col gap" style={{ width: '18rem' }}>
                 <Card.Img className='image' variant="top" src={nmn} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nerds Meet Nerds</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    A dating app designed specifically for 'nerds' of any type.
                     </Card.Text>
-                    <Button variant="primary"><BsGithub /></Button>
+                    <a as={Link} href='https://github.com/Nerds-Meet-Nerds/Nerds-Meet-Nerds'><Button variant="primary"><BsGithub /></Button></a>
                 </Card.Body>
             </Card>
 
             <Card className="col gap" style={{ width: '18rem' }}>
                 <Card.Img className='image' variant="top" src={calendar} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Workday Calendar</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    A convenient calendar app.
                     </Card.Text>
-                    <Button variant="primary"><BsGithub /></Button>
+                    <a as={Link} href='https://github.com/3roses/Calendar'><Button variant="primary"><BsGithub /></Button></a>
                 </Card.Body>
             </Card>
 
             <Card className="col gap" style={{ width: '18rem' }}>
                 <Card.Img className='image' variant="top" src={weather} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Weather Dashboard</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    An app that provides current weather and a future forecast.
                     </Card.Text>
-                    <Button variant="primary"><BsGithub /></Button>
+                    <a as={Link} href='https://github.com/3roses/weather_dashboard'><Button variant="primary"><BsGithub /></Button></a>
                 </Card.Body>
             </Card>
         </div>
