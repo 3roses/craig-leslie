@@ -20,8 +20,8 @@ const Projects = () => {
   return (
     <>
         <Header title={'Projects'}/>
-        <div className = "container-fluid row center">
-            <Card className="col gap">
+        <div className = "row cards">
+            <Card className="col gap" style={{ width: '18rem' }}>
                 <Card.Img className='image' variant="top" src={nba} />
                 <Card.Body>
                     <Card.Title>NBA Fandom</Card.Title>
