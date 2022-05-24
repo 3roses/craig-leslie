@@ -6,7 +6,7 @@ export const SidebarRight = () => {
     <aside className='sidenav-rt'>
         <Link className='icon-rt' to="/projects">Projects</Link>
         <Link className='icon-rt' to="/about">Bio</Link>
-        <a className='icon-rt' href='https://docs.google.com/document/d/1OwXVNU7gS-IJWlV06PLVgitHxMju1cnCMszprEaawv0/export?format=pdf'>Resume</a>
+        <a className='icon-rt' href='https://docs.google.com/document/d/118L94Afb841hdRfTA10dM7Q9DRWn9MLE0xpW5VOwOc4/export?=pdf'>Resume</a>
     </aside>
   )
 };
